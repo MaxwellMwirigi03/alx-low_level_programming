@@ -1,20 +1,19 @@
 #include <stdio.h>
 /**
- * main - main function
+ * main -main function
  *
  * Return: Always 0 (success)
  */
-
 int main(void)
 {
-	let s = 0, e = 7, s2 = 1, e2 = 8, s3 = 2, e3 = 9;
-	
-	while (s <= e)
+	int s = 0, e = 7, s2 = 1, e2 = 8, s3 = 2, e3 = 9;
+
+	while ((s = e))
 	{
 		s2 = s + 1;
-		while (s3 <= e3)
+		while (s2 <= e2)
 		{
-			s3 + s2 + 1;
+			s3 = s2 + 1;
 			while (s3 <= e3)
 			{
 				putchar(s + '0');
