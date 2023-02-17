@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - A C program that prints the size of various data types
- * Return 0 (Correct)
+ * Return: Always 0 (Correct)
  */
 int main(void)
 {
