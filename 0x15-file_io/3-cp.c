@@ -26,7 +26,7 @@ char *create_buffer(char *file)
 		exit(99);
 	}
 
-	return (buffer);
+	return (buff);
 }
 
 /**
@@ -64,7 +64,7 @@ int main(int argc, char *argv[])
 {
 	int from;
 	int to;
-	int r;
+	int read_r;
 	int w;
 	char *buffer;
 
