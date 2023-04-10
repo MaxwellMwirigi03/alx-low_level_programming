@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * flip_bits - count no of bits to change for shifting from one no to another
- * 
- * @n: first no
- * @m: second no
+ * flip_bits - Counts bits needed to get from one no to another
+ * @n: No
+ * @m: Next number
  *
- * Return: number of bits to change
+ * Return: No of bits requires to flip from n to m
  */
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
